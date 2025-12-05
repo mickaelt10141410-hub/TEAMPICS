@@ -1,8 +1,13 @@
 body {
       font-family: Arial, sans-serif;
-      background-color: orange;
+      /*background-color: orange;*/
       margin: 0;
       padding: 20px;
+      background-image: url('https://m.media-amazon.com/images/I/71%2BIADAfLPL._AC_UF1000%2C1000_QL80_.jpg');
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+
     }
 
     h1 {
