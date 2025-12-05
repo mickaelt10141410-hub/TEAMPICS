@@ -37,6 +37,7 @@ body {
 
       #titre{
             color: orange;
+            text-decoration: underline;
       }
 
     .gallery {
