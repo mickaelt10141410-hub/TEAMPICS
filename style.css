@@ -4,15 +4,30 @@ body {
       margin: 0;
       padding: 20px;
       /*background-image: url('https://m.media-amazon.com/images/I/71%2BIADAfLPL._AC_UF1000%2C1000_QL80_.jpg');*/
-      background-image: url('https://v.ftcdn.net/17/04/67/23/700_F_1704672370_vwRaHPZRscrIkt31uSuuaGmCJQuNwiHj_ST.mp4' autoplay);
+      /*background-image: url('https://v.ftcdn.net/17/04/67/23/700_F_1704672370_vwRaHPZRscrIkt31uSuuaGmCJQuNwiHj_ST.mp4' autoplay);*/
       /*background-image: url('https://plus.unsplash.com/premium_photo-1661740756761-650c1e440c5e?fm=jpg&q=80&w=2400');*/
       /*background-image: url('https://png.pngtree.com/background/20211217/original/pngtree-gift-pile-christmas-decoration-green-background-picture-image_1599538.jpg');*/
       /*background-image: url('https://chatgpt.com/backend-api/estuary/content?id=file_00000000b9b4722f9bb5d107d4bb4521&ts=490237&p=fs&cid=1&sig=a99b77e131a09b7b8c1091d13cb641b5f32ac8bd94d418a99fd8111ff3c88d93&v=0');*/
-      background-size: cover;
+      /*background-size: cover;
       background-position: top;
-      background-repeat: no-repeat;
+      background-repeat: no-repeat;*/
+      position: relative;
+      z-index: 1;
+      color: white;      
 
     }
+
+/* La vidéo couvre toute la page */
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
 
     h1 {
       text-align: center;
